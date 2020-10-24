@@ -1,0 +1,394 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Alfa Web</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- favicon
+        ============================================ -->
+    <link rel="shortcut icon" type="image/x-icon" href="../assets/icons/favicon.png">
+    <!-- Bootstrap CSS
+        ============================================ -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+
+    <!-- Bootstrap CSS
+        ============================================ -->
+    <link rel="stylesheet" href="../css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/shortcodes.css">
+    <link rel="stylesheet" href="../css/responsive2.css">
+    <link rel="stylesheet" href="../css/datapicker/colorpicker.css">
+    <link rel="stylesheet" href="../css/datapicker/datepicker3.css">
+
+    <!-- modernizr JS
+        ============================================ -->
+    <script src="../js/modernizr-2.8.3.min.js"></script>
+
+    <style>
+        .uploadbox {
+            background-color: #fef8f8;
+            width: 100%;
+            height: auto;
+            border-width: 2px;
+            border-style: dashed;
+            border-color: #cccc;
+        }
+
+        .image-upload>input {
+            display: none;
+        }
+
+        .image-upload img {
+            width: 80px;
+            cursor: pointer;
+        }
+
+        .textsize {
+            font-size: 16px;
+        }
+
+        .picker {
+            position: absolute;
+            top: 11px;
+            left: 310px;
+        }
+
+        .file-upload input[type='file'] {
+            display: none;
+        }
+
+        .rounded-lg {
+            border-radius: 1rem;
+        }
+
+        .custom-file-label.rounded-pill {
+            border-radius: 50rem;
+        }
+
+        .custom-file-label.rounded-pill::after {
+            border-radius: 0 50rem 50rem 0;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <a id="button"></a>
+    <div class="row grayrow">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12  ">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 largenone">
+                <img class="logo" src="../assets/img/logo.png">
+                <label class="Welcome welcomesize mbwelcome"> Welcome to <span>Alfa Web</span></label>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 Welcome welcomesize displaynone">
+                <label class="welcomemargin"> Welcome to <span>Alfa Web</span></label>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 Welcome mobileaddpadding">
+
+                <a href="#" class="Welcome landscapenopaading"> <mark>UAN-111-225-111</mark> </a>
+
+            </div>
+        </div>
+    </div>
+    <br>
+
+
+    <div class="container">
+        <div class="row openaccountwhitebackground mobiletopupdiv">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
+                <div class="Openaccount2">
+                    <br>
+
+                    <div class="container-fluid"><img style="width: 100%;" src="../assets/progress5.png"></div>
+
+                </div>
+                <br>
+                <br>
+                <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-7 col-sm-8 col-xs-12 textboxmargin mbtextboxspace">
+                            <div class="form-item">
+                                <p class="formLabel OAFont">Enter 4 Digits OTAC</p>
+                                <input type="text" name="From" class="form-style" required="required">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-6 col-md-7 col-sm-8 col-xs-12 textboxmargin mbtextboxspace">
+                            <div class="form-item">
+                                <p class="formLabel OAFont">Next of Kin Details</p>
+                                <input type="text" name="From" class="form-style" required="required">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6 col-md-7 col-sm-8 col-xs-12 textboxmargin mbtextboxspace">
+                            <div class="form-item">
+                                <p class="formLabel OAFont">Nominee's CNIC Number</p>
+                                <input type="text" name="From" class="form-style" required="required">
+                            </div>
+                        </div>
+                    </div>
+
+          
+                    <div class="row">
+                        <div class="col-lg-6 col-md-7 col-sm-8 col-xs-12 textboxmargin mbtextboxspace">
+                            <div class="form-item">
+                                <p class="formLabel OAFont">Mobile Number</p>
+                                <input type="text" name="From" class="form-style" required="required">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-6 col-md-7 col-sm-8 col-xs-12 textboxmargin mbtextboxspace">
+                            <div class="form-item">
+                                <p class="formLabel OAFont">Residential Address </p>
+                                <input type="text" name="From" class="form-style" required="required">
+                            </div>
+                        </div>
+                    </div>
+          
+
+
+                    <div class="row">
+                        <div class="col-lg-6 col-md-7 col-sm-8 col-xs-12 textboxmargin mbtextboxspace">
+                            <div class="form-item">
+                                <p class="formLabel OAFont">Name of Employer</p>
+                                <input type="text" name="From" class="form-style" required="required">
+                            </div>
+                        </div>
+                    </div>
+
+             
+             
+                    <div class="row">
+                        <div class="col-lg-6 col-md-7 col-sm-8 col-xs-12 textboxmargin mbtextboxspace">
+                            <div class="form-item">
+                                <p class="formLabel OAFont">Annual Salary PKR</p>
+                                <input type="text" name="From" class="form-style" required="required">
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+
+                    <div class="row">
+                            <div class="col-lg-6 col-md-7 col-sm-8 col-xs-12 textboxmargin mbtextboxspace">
+                                <div class="form-item">
+                                    <p class="formLabel OAFont">Annual Salary PKR</p>
+                                    <input type="text" name="From" class="form-style" required="required">
+                                </div>
+                            </div>
+                        </div>
+                        
+                    <div class="row">
+                            <div class="col-lg-6 col-md-7 col-sm-8 col-xs-12 textboxmargin mbtextboxspace">
+                                <div class="form-item">
+                                    <p class="formLabel OAFont">Annual Salary PKR</p>
+                                    <input type="text" name="From" class="form-style" required="required">
+                                </div>
+                            </div>
+                        </div>
+                        
+                    <div class="row">
+                            <div class="col-lg-6 col-md-7 col-sm-8 col-xs-12 textboxmargin mbtextboxspace">
+                                <div class="form-item">
+                                    <p class="formLabel OAFont">Annual Salary PKR</p>
+                                    <input type="text" name="From" class="form-style" required="required">
+                                </div>
+                            </div>
+                        </div>
+                        
+                    <div class="row">
+                            <div class="col-lg-6 col-md-7 col-sm-8 col-xs-12 textboxmargin mbtextboxspace">
+                                <div class="form-item">
+                                    <p class="formLabel OAFont">Annual Salary PKR</p>
+                                    <input type="text" name="From" class="form-style" required="required">
+                                </div>
+                            </div>
+                        </div>
+                        
+                    <div class="row">
+                            <div class="col-lg-6 col-md-7 col-sm-8 col-xs-12 textboxmargin mbtextboxspace">
+                                <div class="form-item">
+                                    <p class="formLabel OAFont">Annual Salary PKR</p>
+                                    <input type="text" name="From" class="form-style" required="required">
+                                </div>
+                            </div>
+                        </div>
+                        
+                    <div class="row">
+                            <div class="col-lg-6 col-md-7 col-sm-8 col-xs-12 textboxmargin mbtextboxspace">
+                                <div class="form-item">
+                                    <p class="formLabel OAFont">Annual Salary PKR</p>
+                                    <input type="text" name="From" class="form-style" required="required">
+                                </div>
+                            </div>
+                        </div>
+                        
+                    <div class="row">
+                            <div class="col-lg-6 col-md-7 col-sm-8 col-xs-12 textboxmargin mbtextboxspace">
+                                <div class="form-item">
+                                    <p class="formLabel OAFont">Annual Salary PKR</p>
+                                    <input type="text" name="From" class="form-style" required="required">
+                                </div>
+                            </div>
+                        </div>
+                        
+                    <div class="row">
+                            <div class="col-lg-6 col-md-7 col-sm-8 col-xs-12 textboxmargin mbtextboxspace">
+                                <div class="form-item">
+                                    <p class="formLabel OAFont">Annual Salary PKR</p>
+                                    <input type="text" name="From" class="form-style" required="required">
+                                </div>
+                            </div>
+                        </div>
+                        
+                    <div class="row">
+                            <div class="col-lg-6 col-md-7 col-sm-8 col-xs-12 textboxmargin mbtextboxspace">
+                                <div class="form-item">
+                                    <p class="formLabel OAFont">Annual Salary PKR</p>
+                                    <input type="text" name="From" class="form-style" required="required">
+                                </div>
+                            </div>
+                        </div>
+
+                    <br>
+                  
+
+
+
+
+
+              
+                    <div class="row">
+                            <div class="col-lg-6 col-md-7 col-sm-8 col-xs-12">
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                    <input type="submit" id="btnOpenaccount2" class="redbutton paynow " value="Back"
+                                        name="">
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                    <!-- <a href="openalfaaccount2.html">--> <input type="submit" id="OA7"
+                                        class="redbutton paynow " value="Next" name="">
+                                </div>
+                            </div>
+                        </div>
+
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <img class="width117 floatright displaynone novector" src="../assets/openaccount.png" style="width: 100%;">
+                </div>
+
+
+
+
+            </div>
+        </div>
+    </div>
+    <section>
+        <div class="appbanner">
+            <div class="appcontent">
+                <h1 class="displaynone">GET THE APP</h1>
+                <p class="displaynone">Lorem Ipsum has been the industry's standard <br>dummy text ever since the
+                    1500s
+                </p>
+                <br>
+
+                <a href="https://itunes.apple.com/pk/app/alfa/id1050684372?mt=8" target="_blank"> <img
+                        src="../assets/img/ios.png"> </a>
+                <a href="https://play.google.com/store/apps/details?id=com.base.bankalfalah&amp;hl=en" target="_blank">
+                    <img src="../assets/img/android.png">
+                </a>
+            </div>
+        </div>
+    </section>
+    <br>
+
+    <br>
+    <footer>
+        <div class="footer-copyright-area">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="footer-copy-right">
+                            <span>Copyright © <script>
+                                    new Date().getFullYear() > 2010 && document.write(new Date().getFullYear());
+                                </script> Bank Alfalah All Rights Reserved</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="footer-copy-right">
+                            <span><a href="../Disclaimer.html">Disclaimer</a> | <a href="../Privacy.html">Privacy &
+                                    Security</a> |<a href="../Contactus.html"> Contact
+                                    Us</a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- jquery
+            ============================================ -->
+    <script src="../js/jquery-1.12.4.min.js"></script>
+    <!-- bootstrap JS
+                ============================================ -->
+    <script src="../js/bootstrap.min.js"></script>
+
+    <script src="../js/datepicker/bootstrap-datepicker.js"></script>
+    <script src="../js/datepicker/datepicker-active.js"></script>
+    <script src="../js/editable/bootstrap-datetimepicker.js"></script>
+    <script type="text/javascript">
+        $("#OA7").click(function () {
+            window.location = "openalfaaccount7.html";
+        });
+    </script>
+
+    <script type="text/javascript">
+        $(function () {
+            $('#date-1').datepicker({
+
+                todayHighlight: true
+            });
+        });
+
+        $(document).ready(function () {
+            var formInputs = $('input[type="text"],input[type="password"],select');
+            formInputs.focus(function () {
+                $(this).parent().children('p.formLabel').addClass('formTop');
+                $('div#formWrapper').addClass('darken-bg');
+                $('div.logo').addClass('logo-active');
+            });
+            formInputs.focusout(function () {
+                if ($.trim($(this).val()).length == 0) {
+                    $(this).parent().children('p.formLabel').removeClass('formTop');
+                }
+                $('div#formWrapper').removeClass('darken-bg');
+                $('div.logo').removeClass('logo-active');
+            });
+            $('p.formLabel').click(function () {
+                $(this).parent().children('.form-style').focus();
+            });
+
+
+        });
+    </script>
+
+
+
+</body>
+
+</html>

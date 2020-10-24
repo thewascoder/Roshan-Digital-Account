@@ -1,0 +1,524 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Roshan Digital Account - Bank Alfalah</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="ScreenOrientation" content="autoRotate:disabled">
+    <!-- favicon
+        ============================================ -->
+    <link rel="shortcut icon" type="image/x-icon" href="assets/icons/favicon.png">
+    <!-- Bootstrap CSS
+        ============================================ -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive2.css">
+    <link rel="stylesheet" href="css/shortcodes.css">
+
+    <link rel="stylesheet" href="/css/datepicker/datepicker.css">
+
+    <link rel="stylesheet" href="/build/css/intlTelInput.css">
+
+
+
+    <link rel="stylesheet" href="css/footer.css">
+
+
+    <style>
+        h1 {
+            font-size: 26px !important;
+            font-weight: 300 !important;
+            color: #555 !important;
+            line-height: 46px !important;
+            font-style: italic;
+        }
+
+        .uploadbox {
+            background-color: #fef8f8;
+            width: 100%;
+            height: auto;
+            border-width: 2px;
+            border-style: dashed;
+            border-color: #cccc;
+        }
+
+        .image-upload>input {
+            display: none;
+        }
+
+        .image-upload img {
+            width: 80px;
+            cursor: pointer;
+        }
+
+        .textsize {
+            font-size: 16px;
+        }
+
+        @media only screen and (max-width:736px) and (orientation: landscape) {
+            .uploadbox {
+                width: 50%;
+            }
+
+            #phone {
+                width: 300px;
+            }
+        }
+
+
+    </style>
+
+
+</head>
+
+<body>
+    <header class="grayrow">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-10 col-sm-10 col-md-10 col-lg-10 col-xl-10">
+                    <img class="" src="/assets/logo.png" style="    width: 100px;">
+
+                </div>
+                <div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2">
+                    <img class="" src="/assets/award.png" style="width: 100px;">
+
+                </div>
+
+            </div>
+        </div>
+
+    </header>
+    <br>
+
+
+    <section>
+        <div class="container h-100">
+            <div class="row h-100 justify-content-center align-items-center">
+                <div class="col-12 col-md-12 col-lg-12">
+
+                    <!-- <form class="form-example" method="GET"> -->
+                        <div class="row">
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                                <div class="form-group">
+                                    <label for="username">Full Name, as per ID: <span
+                                            style="    color: red;">*</span></label>
+                                    <input type="text" class="form-control username" id="FullName"
+                                        placeholder="Full Name" name="FullName">
+                                </div>
+
+                            </div>
+
+
+                        </div>
+
+
+                        <div class="row">
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                                <div class="form-group">
+                                    <label for="username">Father/Husband Name: <span
+                                            style="    color: red;">*</span></label>
+                                    <input type="text" class="form-control username" id="Father/HusbandName"
+                                        placeholder="Father/Husband Name" name="Father/HusbandName">
+                                </div>
+
+                            </div>
+
+
+                        </div>
+
+
+                        <div class="row">
+                            <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                                <div class="form-group">
+                                    <label for="username">Identity Type: <span style="    color: red;">*</span></label>
+                                    <select name="Category" class="form-control username">
+                                        <option value="0">--Select--</option>
+                                        <option value="1">CNIC</option>
+                                        <option value="2">NICOP</option>
+                                        <option value="3">POC</option>
+                                        <option value="4">SNICOP</option>
+                                        <option value="5">SNIC</option>
+                                    </select>
+                                </div>
+
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                                <div class="form-group">
+                                    <label for="username">CNIC/NICOP/POC/SNICOP/SNIC number: (Enter number without
+                                        dashes)
+                                        <span style="    color: red;">*</span></label>
+                                    <input type="text" class="form-control username" id="Father/HusbandName"
+                                        placeholder="CNIC/NICOP/POC/SNICOP/SNIC number" name="Father/HusbandName"
+                                        minlength="13" maxlength="13">
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="row">
+                            <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                                <div class="form-group">
+                                    <label for="username">Identity Card Date of Expiry: <span
+                                            style="color: red;">*</span></label>
+                                    <div class="datepicker date input-group p-0 shadow-sm">
+                                        <div class="input-group-append">
+                                            <span class="input-group-text px-4"><i class="fa fa-calendar"
+                                                    aria-hidden="true"></i></span></div>
+                                        <input type="text" placeholder="mm-dd-yyyy" class="form-control py-4 px-4"
+                                            id="ExpiryDate">
+
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                                <div class="form-group">
+                                    <label for="username">Identity Card Date of issuance: <span
+                                            style="color: red;">*</span></label>
+                                    <div class="datepicker date input-group p-0 shadow-sm">
+                                        <div class="input-group-append">
+                                            <span class="input-group-text px-4"><i class="fa fa-calendar"
+                                                    aria-hidden="true"></i></span></div>
+                                        <input type="text" placeholder="mm-dd-yyyy" class="form-control py-4 px-4"
+                                            id="issuanceDate">
+
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="row">
+
+
+
+
+                            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+                                <div class="form-group">
+                                    <label class="container1">Life Time
+                                        <input type="checkbox">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-12">
+                                <div class="form-group">
+                                    <label for="username">Email Address:
+
+                                        <span style="    color: red;">*</span></label>
+                                    <input type="text" class="form-control username" id="Father/HusbandName"
+                                        placeholder="Email Address" name="Father/HusbandName" minlength="13"
+                                        maxlength="13">
+
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="row">
+                            <div class="col-lg-12 col-md-6 col-sm-6 col-xs-6">
+                                <div class="form-group">
+                                    <label for="username">Mobile Number: <span style="    color: red;">*</span></label>
+                                    <br>
+
+
+
+                                    <input type="tel" class="form-control username" maxlength="14" id="phone"
+                                        type="text" name="txtPhone" placeholder="Enter your Mobile No">
+
+
+                                </div>
+
+                            </div>
+
+
+
+
+                        </div>
+
+
+
+
+                        <div class="row" id="dvsave">
+                            <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-12">
+                                <button class="ml-2 finbyz-button" id="btn-save">Save </button>
+                            </div>
+                        </div>
+
+                        <br>
+                        <div id="dvotac" style="display: none;">
+                            <div class="row">
+                                <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                                    <div class="form-group">
+                                        <label for="username">OTAC: <span style="    color: red;">*</span></label>
+                                        <input type="text" class="form-control username" id="FullName"
+                                            placeholder="Enter OTAC" name="FullName">
+                                    </div>
+
+                                </div>
+
+                              
+                            </div>
+
+                            <div class="row">
+                                <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-12">
+                                    <button class="ml-2 finbyz-button" id="btn-verify">Verify </button>
+                                </div>
+
+                              
+                            </div>
+
+
+                        </div>
+
+
+
+
+                    <!-- </form> -->
+
+                </div>
+            </div>
+    </section>
+
+
+    <div class="row displaynone" style="width: 100%;">
+        <div class="col-lg-8 col-md-8 col-sm-8 col-xs-4">
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-8">
+            <img class="chat" src="/assets/chat.png">
+        </div>
+    </div>
+    <br>
+    <!-- <footer>
+        <div class="footer-copyright-area">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="footer-copy-right">
+                            <span>Copyright ©
+                                <script>
+                                    new Date().getFullYear() > 2010 && document.write(new Date().getFullYear());
+                                </script> Bank Alfalah All Rights Reserved</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </footer> -->
+
+    <footer class="footer-1 bg-gray-100 py-8 sm:py-12">
+        <div class="container mx-auto px-4">
+            <div class="sm:flex sm:flex-wrap sm:-mx-4 md:py-4">
+                <div class="px-4 sm:w-1/2 md:w-1/4 xl:w-1/6">
+                    <h5 class="text-xl font-bold mb-6">Features</h5>
+                    <ul class="list-none footer-links">
+                        <li class="mb-2">
+                            <a href="#"
+                                class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800">Cool
+                                stuff</a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="#"
+                                class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800">Random
+                                feature</a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="#"
+                                class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800">Team
+                                feature</a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="#"
+                                class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800">Stuff
+                                for developers</a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="#"
+                                class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800">Another
+                                one</a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="#"
+                                class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800">Last
+                                time</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="px-4 sm:w-1/2 md:w-1/4 xl:w-1/6 mt-8 sm:mt-0">
+                    <h5 class="text-xl font-bold mb-6">Resources</h5>
+                    <ul class="list-none footer-links">
+                        <li class="mb-2">
+                            <a href="#"
+                                class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800">Resource</a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="#"
+                                class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800">Resource
+                                name</a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="#"
+                                class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800">Another
+                                resource</a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="#"
+                                class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800">Final
+                                resource</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="px-4 sm:w-1/2 md:w-1/4 xl:w-1/6 mt-8 md:mt-0">
+                    <h5 class="text-xl font-bold mb-6">About</h5>
+                    <ul class="list-none footer-links">
+                        <li class="mb-2">
+                            <a href="#"
+                                class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800">Team</a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="#"
+                                class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800">Locations</a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="#"
+                                class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800">Privacy</a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="#"
+                                class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800">Terms</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="px-4 sm:w-1/2 md:w-1/4 xl:w-1/6 mt-8 md:mt-0">
+                    <h5 class="text-xl font-bold mb-6">Help</h5>
+                    <ul class="list-none footer-links">
+                        <li class="mb-2">
+                            <a href="#"
+                                class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800">Support</a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="#"
+                                class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800">Help
+                                Center</a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="#"
+                                class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800">Contact
+                                Us</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="px-4 mt-4 sm:w-1/3 xl:w-1/6 sm:mx-auto xl:mt-0 xl:ml-auto">
+                    <h5 class="text-xl font-bold mb-6 sm:text-center xl:text-left">Stay connected</h5>
+                    <div class="flex sm:justify-center xl:justify-start">
+                        <a href="" class="w-8 h-8 border border-2 border-gray-400 rounded-full text-center py-1 
+                            text-gray-600 hover:text-white hover:bg-blue-600 hover:border-blue-600">
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                        <a href=""
+                            class="w-8 h-8 border border-2 border-gray-400 rounded-full text-center py-1 ml-2 text-gray-600 hover:text-white hover:bg-blue-400 hover:border-blue-400">
+                            <i class="fa fa-twitter"></i>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="sm:flex sm:flex-wrap sm:-mx-4 mt-6 pt-6 sm:mt-12 sm:pt-12 border-t">
+                <div class="sm:w-full px-4 md:w-1/6">
+                    <strong>FWR</strong>
+                </div>
+                <div class="px-4 sm:w-1/2 md:w-1/4 mt-4 md:mt-0">
+                    <h6 class="font-bold mb-2">Address</h6>
+                    <address class="not-italic mb-4 text-sm">
+                        123 6th St.<br>
+                        Melbourne, FL 32904
+                    </address>
+                </div>
+                <div class="px-4 sm:w-1/2 md:w-1/4 mt-4 md:mt-0">
+                    <h6 class="font-bold mb-2">Free Resources</h6>
+                    <p class="mb-4 text-sm">Use our HTML blocks for <strong>FREE</strong>.<br>
+                        <em>All are MIT License</em></p>
+                </div>
+                <div class="px-4 md:w-1/4 md:ml-auto mt-6 sm:mt-4 md:mt-0">
+                    <button class="px-4 py-2 bg-purple-800 hover:bg-purple-900 rounded text-white">Get Started</button>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!-- jquery
+            ============================================ -->
+    <script src="../js/jquery-3.5.1.min.js"></script>
+    <!-- bootstrap JS
+                        ============================================ -->
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="build/js/intlTelInput.js"></script>
+
+    <script src="../js/datepicker/datepicker.js"></script>
+    <script src="../js/main.js"></script>
+
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+
+
+         
+
+
+
+            var input = document.querySelector("#phone");
+            window.intlTelInput(input, {
+
+                utilsScript: "build/js/utils.js",
+            });
+
+
+
+        });
+
+        $("#btn-save").click(function () {
+
+
+            $("#dvsave").css("display", "none");
+
+            $("#dvotac").css("display", "block");
+
+        });
+
+
+        $("#btn-verify").click(function () {
+
+            window.location = "openalfaaccount1.html";
+
+        });
+
+
+
+    </script>
+
+
+
+
+
+
+</body>
+
+</html>
